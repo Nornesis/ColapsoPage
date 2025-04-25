@@ -7,6 +7,8 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
         
         * {
             margin: 0;
@@ -17,7 +19,7 @@
         body {
             background-color: #0a0a0a;
             color: #ffffff;
-            font-family: 'Arial', sans-serif;
+            font-family: 'Roboto', sans-serif;
             background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><path d="M20,20 L25,25 M40,20 L35,25 M60,20 L65,25 M80,20 L75,25" stroke="%23222222" stroke-width="1" fill="none" opacity="0.3"/></svg>');
             line-height: 1.6;
         }
@@ -148,7 +150,7 @@
         }
         
         .section-title {
-            font-family: 'Pirata One', cursive;
+            font-family: 'Oswald', sans-serif;
             font-size: 2.5rem;
             color: #ffffff;
             margin-bottom: 30px;
@@ -181,33 +183,36 @@
         }
         
         .card-date {
-            font-family: 'Cinzel Decorative', serif;
+            font-family: 'Roboto', sans-serif;
             font-size: 0.8rem;
             color: #999;
             margin-bottom: 10px;
+            font-weight: 500;
         }
         
         .card-title {
-            font-family: 'Pirata One', cursive;
+            font-family: 'Oswald', sans-serif;
             font-size: 1.8rem;
+            font-weight: 600;
             color: #FF5500;
             margin-bottom: 15px;
             letter-spacing: 1px;
         }
         
         .card-description {
-            font-family: 'Cinzel Decorative', serif;
-            font-size: 0.95rem;
-            color: #cccccc;
+            font-family: 'Roboto', sans-serif;
+            font-size: 1rem;
+            color: #e0e0e0;
             margin-bottom: 20px;
             line-height: 1.6;
+            font-weight: 400;
         }
         
         .card-tag {
             display: inline-block;
             padding: 5px 12px;
             border-radius: 20px;
-            font-family: 'Cinzel Decorative', serif;
+            font-family: 'Roboto', sans-serif;
             font-size: 0.8rem;
             font-weight: bold;
             text-transform: uppercase;
@@ -231,7 +236,7 @@
             padding: 40px 0;
             color: #666;
             font-size: 0.9rem;
-            font-family: 'Cinzel Decorative', serif;
+            font-family: 'Roboto', sans-serif;
         }
         
         .social-links {
@@ -265,6 +270,21 @@
             height: 24px;
             fill: #000;
         }
+
+        .uniform-gallery {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin-top: 10px;
+        }
+
+        .uniform-image {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        }
         
         @media (max-width: 768px) {
             .nav-links {
@@ -293,6 +313,8 @@
                 font-size: 1.3rem;
             }
         }
+
+        
     </style>
 </head>
 <body>
@@ -317,12 +339,27 @@
         
         <section class="news-section">
             <div class="news-cards">
+                
                 <div class="news-card">
                     <div class="card-content">
-                        <div class="card-date">JUNE 15, 2025</div>
-                        <h2 class="card-title">VICTORY IN THE REMATCH SUMMER TOURNAMENT</h2>
+                        <div class="card-date">ABRIL 23/24, 2025</div>
+                        <h2 class="card-title">CRIAÇÃO DO INSTAGRAM E SITE</h2>
                         <p class="card-description">
-                            The Colapso team dominated the Rematch Summer Tournament finals with a decisive 3-0 victory against Team Avalanche. Our strategic gameplay and coordinated team efforts proved unstoppable, securing us the championship title and a spot in the upcoming international qualifiers.
+                            Hoje colocamos no ar o Instagram e o site oficial da Colapso.
+                        </p>
+                        <span class="card-tag tag-team">Team</span>
+                    </div>
+                </div>
+                
+                <div class="news-card">
+                    <div class="card-content">
+                        <div class="card-date">ABRIL 19, 2025</div>
+                        <h2 class="card-title">X-TREINO BRZ</h2>
+                        <p class="card-description">
+                            Enfrentamos três times:<br>
+                            BRZ E-SPORTS, ganhamos por 3x1. [PARTIDA ÚNICA]<br>
+                            Manshine City, fomos derrotados por 1x4. [PARTIDA ÚNICA]<br>
+                            Instinct, fomos derrotados por 1x2. [PARTIDA ÚNICA]<br>
                         </p>
                         <span class="card-tag tag-matches">Matches</span>
                     </div>
@@ -330,21 +367,12 @@
                 
                 <div class="news-card">
                     <div class="card-content">
-                        <div class="card-date">JUNE 10, 2025</div>
-                        <h2 class="card-title">NEW TEAM MEMBER: WELCOME GUSTAVO</h2>
+                        <div class="card-date">ABRIL 18, 2025</div>
+                        <h2 class="card-title">AMISTOSOS DO DIA</h2>
                         <p class="card-description">
-                            We're excited to announce the newest addition to our roster. Gustavo joins Colapso as our strategic analyst, bringing years of competitive experience and a fresh perspective to our team dynamics. His expertise in map control and resource management will be invaluable in our upcoming tournaments.
-                        </p>
-                        <span class="card-tag tag-team">Team</span>
-                    </div>
-                </div>
-                
-                <div class="news-card">
-                    <div class="card-content">
-                        <div class="card-date">MAY 28, 2025</div>
-                        <h2 class="card-title">SEMIFINAL QUALIFICATION SECURED</h2>
-                        <p class="card-description">
-                            After an intense group stage, Colapso has secured a spot in the semifinals of the Regional Championship. The team showed exceptional resilience in the final group match, coming back from a significant disadvantage to claim victory in the last moments of the game.
+                            Enfrentamos dois times:<br>
+                            NOISE GAMING, fomos derrotados por 0x1 e 0x4. [MD3]<br>
+                            Mirage Ardent ™, tivemos uma vitória por 4x2, mas também duas derrotas por 1x2. [MD3]
                         </p>
                         <span class="card-tag tag-matches">Matches</span>
                     </div>
@@ -352,25 +380,49 @@
                 
                 <div class="news-card">
                     <div class="card-content">
-                        <div class="card-date">MAY 15, 2025</div>
-                        <h2 class="card-title">TRAINING CAMP ANNOUNCEMENT</h2>
+                        <div class="card-date">ABRIL 17, 2025</div>
+                        <h2 class="card-title">NOVOS UNIFORMES</h2>
                         <p class="card-description">
-                            Colapso will be entering an intensive two-week training camp starting June 1st to prepare for the upcoming championship season. The team will focus on developing new strategies, improving communication, and mastering the latest game updates. Expect to see some innovative gameplay in our next matches!
+                            Foram desenvolvidos os três primeiros modelos de uniforme da equipe.
                         </p>
+                        <div class="uniform-gallery">
+                            <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/UniformeLaranja.png-f4bOvg5Ukh6cg0VPcxxiX0qwf7YQXy.jpeg" alt="Uniforme Laranja" class="uniform-image">
+                            <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/UniformePreto-ciPILyfcU39V0J3IXHGbe0Z7lz8Cxw.png" alt="Uniforme Preto" class="uniform-image">
+                            <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/PrototipoUniforme.png-C9RPS5mihWygbJoE3gaFnrXbMUcTc0.jpeg" alt="Uniforme Prototipo" class="uniform-image">
+                        </div>
                         <span class="card-tag tag-team">Team</span>
                     </div>
                 </div>
-                
+
                 <div class="news-card">
                     <div class="card-content">
-                        <div class="card-date">APRIL 30, 2025</div>
-                        <h2 class="card-title">NEW UNIFORMS REVEALED</h2>
+                        <div class="card-date">ABRIL 16, 2025</div>
+                        <h2 class="card-title">ELENCO FUNDADOR</h2>
                         <p class="card-description">
-                            Today we proudly unveiled our new team uniforms for the 2025 season. The redesigned jerseys feature our signature orange and black colors with an updated, more dynamic design that represents our explosive gameplay style. The new uniforms will make their debut at next week's qualifier match.
+                            ・Norn<br>
+                            ・Robertinho<br>
+                            ・Jonespedecabra1<br>
+                            ・Kickmig<br>
+                            ・Foegera<br>
+                            ・Doug<br>
+                            ・Sub<br>
+                            ・G
                         </p>
                         <span class="card-tag tag-team">Team</span>
                     </div>
                 </div>
+
+                <div class="news-card">
+                    <div class="card-content">
+                        <div class="card-date">ABRIL 16, 2025</div>
+                        <h2 class="card-title">CRIAÇÃO DO TIME</h2>
+                        <p class="card-description">
+                            Hoje marcamos o início oficial da nossa equipe.
+                        </p>
+                        <span class="card-tag tag-team">Team</span>
+                    </div>
+                </div>
+
             </div>
         </section>
         
