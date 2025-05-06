@@ -247,75 +247,6 @@
             fill: #000;
         }
         
-        /* Navigation Styles */
-        .nav-container {
-            background-color: rgba(10, 10, 10, 0.9);
-            border-bottom: 1px solid #FF5500;
-            position: sticky;
-            top: 0;
-            z-index: 100;
-            backdrop-filter: blur(5px);
-        }
-        
-        nav {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 15px 20px;
-        }
-        
-        .nav-logo {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-        
-        .nav-logo img {
-            width: 40px;
-            height: 40px;
-        }
-        
-        .nav-logo span {
-            font-family: 'Pirata One', cursive;
-            font-size: 1.5rem;
-            color: #FF5500;
-        }
-        
-        .nav-links {
-            display: flex;
-            gap: 30px;
-        }
-        
-        .nav-link {
-            font-family: 'Cinzel Decorative', serif;
-            text-decoration: none;
-            color: #ffffff;
-            font-size: 0.9rem;
-            letter-spacing: 1px;
-            transition: color 0.3s ease;
-            position: relative;
-        }
-        
-        .nav-link:hover {
-            color: #FF5500;
-        }
-        
-        .nav-link.active {
-            color: #FF5500;
-        }
-        
-        .nav-link.active::after {
-            content: "";
-            position: absolute;
-            bottom: -5px;
-            left: 0;
-            width: 100%;
-            height: 2px;
-            background-color: #FF5500;
-        }
-        
         @media (max-width: 768px) {
             .team-member {
                 width: calc(33.333% - 20px);
@@ -328,10 +259,6 @@
             h1 {
                 font-size: 3.5rem;
             }
-            
-            .nav-links {
-                gap: 15px;
-            }
         }
         
         @media (max-width: 480px) {
@@ -342,32 +269,10 @@
             h1 {
                 font-size: 2.5rem;
             }
-            
-            .nav-links {
-                gap: 10px;
-            }
-            
-            .nav-link {
-                font-size: 0.8rem;
-            }
         }
     </style>
 </head>
 <body>
-    <!-- Added Navigation Bar -->
-    <div class="nav-container">
-        <nav>
-            <div class="nav-logo">
-                <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ColapsoOficial-a1kLDZegisoahRArfsBiqfPFoRRq1v.png" alt="Colapso Logo">
-                <span>COLAPSO</span>
-            </div>
-            <div class="nav-links">
-                <a href="index.html" class="nav-link active">Home</a>   
-                <a href="news.html" class="nav-link">News</a>
-            </div>
-        </nav>
-    </div>
-
     <div class="container">
         <header>
             <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ColapsoOficial-a1kLDZegisoahRArfsBiqfPFoRRq1v.png" alt="Colapso Logo" class="logo">
@@ -413,7 +318,7 @@
                 </div>
                 <div class="team-member">
                     <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/PlayersPfp-XjIEKpjqDsNzfEt67dXpWZRamkDAeS.png" alt="Player Silhouette" class="member-avatar">
-                    <div class="member-name">FOEGERA</div>
+                    <div class="member-name"></div>
                 </div>
                 <div class="team-member">
                     <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/PlayersPfp-XjIEKpjqDsNzfEt67dXpWZRamkDAeS.png" alt="Player Silhouette" class="member-avatar">
